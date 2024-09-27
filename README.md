@@ -1,5 +1,5 @@
 # 2024---Hackathon
-<<<<<<< Updated upstream
+
 
 =======
 Hackathon Project
@@ -28,4 +28,4 @@ Features
 Setup Instructions
 
 To run select any local browser
->>>>>>> Stashed changes
+
