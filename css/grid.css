@@ -59,6 +59,8 @@ img, embed, object, video, picture {
      padding-left: 15px;
      padding-right: 15px;
   }
+
+
   
   /* A keyword indicating that the property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of 1. */
   .col-auto {grid-column: auto;}
@@ -84,6 +86,9 @@ img, embed, object, video, picture {
   /* ---Tablet Library Grid Styles--- */
   
   @media screen and (min-width: 768px) { 
+   #hamburger-icon {
+      display: none;
+   }
      
      .grid-con { 
         display: grid; 

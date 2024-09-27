@@ -60,8 +60,13 @@ function hideControls() {
 
 function showControls() {
     videoControls.classList.remove('hide')
+
+
 }
 
+function toggleMobileMenu(menu) {
+    menu.classList.toggle('open')
+}
 
 //event listeners
 
