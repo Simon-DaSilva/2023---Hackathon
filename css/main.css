@@ -54,6 +54,66 @@ p, h1, h2, h3, h4, h5 {
   width: 50%;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width:760px) {
+  #go {
+     display: none;
+  }
+  #hamburger-icon {
+     display: block;
+  }
+ }
+
+
+
+#hamuber-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 40px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.3s;
+}
+
+.open .bar1 {
+  
+  transform: rotate(-90deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  
+  transform: rotate(90deg) translate(-6px, 6px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+ }
+
+ .mobile-menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  height: auto;
+  width: 100%;
+ }
+
 #player-container {
     position: relative;
     display: flex;
