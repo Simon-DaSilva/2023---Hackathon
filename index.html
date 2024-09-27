@@ -4,8 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2023 Fanshawe Hackathon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    
+<header>
+    <div class="grid-con">
+        <div class="l-col-start-1 l-col-end-4">
+            <img src="images/fanshawe-logo.png">
+        </div>
+        <div class="menu l-col-start-7 l-col-end-8">
+            <h2>Event</h2>
+        </div>
+
+        <div class="menu l-col-start-8 l-col-end-9">
+            <h2>Portfolio</h2>
+        </div>
+
+        <div class="menu l-col-start-10 l-col-end-11">
+            <h2>Project</h2>
+        </div>
+
+        <div class="menu l-col-start-11 l-col-end-13">
+            <h2>Contact Us</h2>
+        </div>
+
+    </div>
+</header>
+    <div class="grid-con container">
+        <h2 class="hidden">Banner</h2>
+        <img src="images/abstract-gradient-background-with-grainy-effect.png" class="col-span-full">
+        <h1 class="banner l-col-start-1 l-col-end-4">JOIN US FOR</h1>
+        <h1 class="banner2 l-col-start-4 l-col-end-8"><span style="color: red;">FANSHAWE</span> COLLEGE INDUSTRY NIGHT 2024</h1>
+        <h4 class="banner3 1-col-start-3 l-col-end-9">Interactive Media Design & User Experience Design</h4>
+    </div>
+
+
+    <main>
+        <div class="grid-con">
+            <h1 class="col-span-full headings">FANSHAWE INDUSTRY NIGHT 2024</h1>
+            
+            <section id="player-container" class="col-span-full">
+                <video controls preload="metadata">
+                    <source src="assets/LockIn.mp4" type="video/mp4">
+                </video>
+                <div class="video-controls hidden" id="video-controls">
+                    <button id="play-button">
+                        <i class="fa fa-play-circle-o"></i>
+                    </button>
+                    <button id="pause-button">
+                        <i class="fa fa-pause-circle-o"></i>
+        
+                    </button>
+                    <button id="stop-button"></button>
+                        <i class="fa fa-stop-circle-o"></i>
+                    </button>
+                    
+                    <i class="fa fa-volume-up"></i>
+                    <input type="range" id="change-vol" step="0.05" min="0" max="1" value="1">
+        
+                    <button id="full-screen">
+                        <i class="fa fa-arrows-alt"></i>
+                    </button>            
+                
+
+                </div>
+            </section>
+
+            <h2 class="col-span-full">Industry Night</h2>
+            <h2 class="col-span-full">April 24th, 2024</h2>
+            <h2 class="col-span-full">137 Dundas St</h2>
+            <h2 class="col-span-full">Fanshawe LDA Building London, ON N6A 1E9</h2>
+            <h2 class="col-span-full">THE GOOD FOUNDATION INC. THEATRE</h2>
+        </div>
+
+
+
+    </main>
+
+    <script src="js/main.js"></script>    
 </body>
 </html>
