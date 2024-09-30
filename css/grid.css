@@ -38,6 +38,16 @@ img, embed, object, video, picture {
      margin-top: 10px;
      margin-bottom:10px;
    }
+
+   .boxb {
+      background-color: black;
+      color: rgb(27, 27, 27);
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom:10px;
+    }
   
   /* ---Mobile Library Grid Styles--- */
   
