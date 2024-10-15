@@ -1,16 +1,19 @@
 body {
     margin-top: 10px;
-    background-image: url(/images/background.png);
+    background-color: #fff;
+   
     background-repeat:repeat;
     
 }
 
 p, h1, h2, h3, h4, h5 {
- color: white;
- font-family: Arial, Helvetica, sans-serif;
-
+ color: black;
+ font-family: Poppins;
+    
 }
-
+.red {
+  color: red;
+}
 .menu {
     margin-top: 15px;
 }
@@ -59,7 +62,7 @@ header {
   justify-content: space-between;
 }
 
-@media only screen and (max-width:760px) {
+@media only screen and (max-width:767px) {
   #go {
      display: none;
   }
@@ -88,6 +91,10 @@ header {
   color: #fff;
 }
 
+.plink {
+  color: #F18F8D;
+}
+
 .open .bar1 {
   
   transform: rotate(-90deg) translate(-6px, 6px);
@@ -99,7 +106,7 @@ header {
 
 .open .bar3 {
   
-  transform: rotate(90deg) translate(-6px, 6px);
+  transform: rotate(90deg) translate(-12px, 6px);
 }
 
 .open .mobile-menu {
@@ -117,6 +124,8 @@ header {
   height: auto;
   width: 100%;
   z-index: 1;
+  
+  
  }
 
 #player-container {
@@ -183,7 +192,7 @@ input[type="range"] {
   /******** Chrome, Safari, Opera and Edge Chromium styles ********/
   /* slider track */
   input[type="range"]::-webkit-slider-runnable-track {
-    background-color: #ffffff;
+    background-color: red;
     border-radius: 0.5rem;
     height: 0.5rem;
   }
@@ -207,7 +216,7 @@ input[type="range"] {
   /*********** Firefox styles ***********/
   /* slider track */
   input[type="range"]::-moz-range-track {
-    background-color: #ffffff;
+    background-color: red;
     border-radius: 0.5rem;
     height: 0.5rem;
   }

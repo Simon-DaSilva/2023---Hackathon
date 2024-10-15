@@ -7,30 +7,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
 
-    <header>
+    <header class="boxr">
     <div class="grid-con">
-        <div class="l-col-start-1 l-col-end-4 m-col-start-1 m-col-end-4">
-            <img src="images/fanshawe-logo.png" alt="fanshawe logo">
-        </div>
+        <h3 class="l-col-start-1 l-col-end-4 m-col-start-1 m-col-end-4">
+            <img src="images/Group 2.png" alt="fanshawe logo">
+        </h3>
         
-        <div class="menu l-col-start-7 l-col-end-8 m-col-start-7 m-col-end-8">
+        <h3 class="menu l-col-start-6 l-col-end-7 m-col-start-6 m-col-end-7">
             <a href="index.html" id="go" class="link">Events</a>
-        </div>
+        </h3>
 
-        <div class="menu l-col-start-8 l-col-end-9 m-col-start-8 l-col-end-9">
+        <h3 class="menu l-col-start-8 l-col-end-9 m-col-start-8 l-col-end-9">
             <a href="index.html" id="go" class="link">Portfolio</a>
-        </div>
+        </h3>
 
-        <div class="menu l-col-start-10 l-col-end-11 m-col-start-10 m-col-end-10">
+        <h3 class="menu l-col-start-10 l-col-end-11 m-col-start-10 m-col-end-11">
             <a href="index.html" id="go" class="link">Project</a>
-        </div>
+        </h3>
 
-        <div class="menu l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13">
+        <h3 class="menu l-col-start-12 l-col-end-13 m-col-start-12 m-col-end-13">
             <a href="index.html" id="go" class="link">Contact Us</a>
-        </div>
+        </h3>
 
         <div class="col-start-4 col-end-5" id="hamburger-icon" onclick="toggleMobileMenu(this)">
             <div class="bar1"></div>
@@ -46,9 +49,9 @@
 
     </div>
 </header>
-    <div class="grid-con container">
+    <div class="grid-con container bannerbox">
         <h2 class="hidden">Banner</h2>
-        <img src="images/abstract-gradient-background-with-grainy-effect.jpg" class="col-span-full" alt="red and black background">
+        
         <h1 class="banner l-col-start-1 l-col-end-4 m-col-start-1 m-col-end-5 col-start-1 col-end-3">JOIN US FOR</h1>
         <h1 class="banner2 l-col-start-4 l-col-end-8 m-col-start-4 m-col-end-10 col-start-2 col-end-5"><span style="color: red;">FANSHAWE</span> COLLEGE INDUSTRY NIGHT 2024</h1>
         <h4 class="banner3 1-col-start-3 l-col-end-9 m-col-start-2 m-col-end-12 col-start-1 col-end-5">Interactive Media Design & User Experience Design</h4>
@@ -61,36 +64,36 @@
             
             <section id="player-container" class="col-span-full">
                 <video controls preload="metadata" poster="images/Rectangle 6.png">
-                    <source src="assets/Hackathon video.mp4" type="video/mp4">
+                    <source src="assets/Industry_night_video.mp4" type="video/mp4">
                 </video>
                 <div class="video-controls hidden" id="video-controls">
                     <button id="play-button">
-                        <i class="fa fa-play-circle-o"></i>
+                        <i class='fa fa-play-circle fa-5x' style='color:#ff0000'></i>
                     </button>
                     <button id="pause-button">
-                        <i class="fa fa-pause-circle-o"></i>
+                        <i class='fa fa-pause-circle fa-5x' style='color:#ff0000'></i>
         
                     </button>
                     <button id="stop-button"></button>
-                        <i class="fa fa-stop-circle-o"></i>
+                        <i class='fa fa-stop-circle fa-5x' style='color:#ff0000'></i>
                     </button>
                     
                     <i class="fa fa-volume-up"></i>
                     <input type="range" id="change-vol" step="0.05" min="0" max="1" value="1">
         
                     <button id="full-screen">
-                        <i class="fa fa-arrows-alt"></i>
+                        <i class='fa fa-arrows-alt fa-5x' style='color:#ff0000'></i>
                     </button>            
                 
 
                 </div>
             </section>
 
-            <h2 class="col-span-full">Industry Night</h2>
-            <h2 class="col-span-full">April 24th, 2024</h2>
-            <h2 class="col-span-full">137 Dundas St</h2>
-            <h2 class="col-span-full">Fanshawe LDA Building London, ON N6A 1E9</h2>
-            <h2 class="col-span-full">THE GOOD FOUNDATION INC. THEATRE</h2>
+            <h2 class="red col-span-full">Industry Night</h2>
+            <h2 class="red col-span-full">April 24th, 2024</h2>
+            <h2 class="red col-span-full">137 Dundas St</h2>
+            <h2 class="red col-span-full">Fanshawe LDA Building London, ON N6A 1E9</h2>
+            <h2 class="red col-span-full">THE GOOD FOUNDATION INC. THEATRE</h2>
         </div>
         
         <div class="grid-con">
@@ -105,16 +108,17 @@
         <h3 class="menu l-col-start-1 l-col-end-5 m-col-start-1 m-col-end-5 col-start-1 col-end-4">Together, let’s celebrate creativity, innovation, and collaboration</h3>
         
         <div class="l-col-start-9 l-col-end-12 m-col-start-9 m-col-end-12"><img src="images/Rectangle 9.png" alt="proffesor giving lecture"></div>
-        <h3 class="l-col-start-1 l-col-end-2 m-col-start-1 m-col-end-2 col-start-1 col-end-4">Event Breakdown</h3>
+        <h3 class="l-col-start-6 l-col-end-7 m-col-start-6 m-col-end-7 col-start-1 col-end-3">Event Breakdown</h3> 
+        <img class="l-col-start-8 l-col-end-9 m-col-start-8 m-col-end-9 col-start-2 col-end-3" src="images/schedule_calendar_flat_style.png">
         
-        <div class="box l-col-start-1 l-col-end-5 m-col-start-1 m-col-end-5 col-star-1 col-end-2">4:30 PM - 6:30 PM <br>Spotlight Presentations (The Good Foundation Inc. Theatre)</div>
-        <div class="box l-col-start-5 l-col-end-9 m-col-start-5 m-col-end-9 col-start-2 col-end-3">6:00 PM - 7:00 PM <br>Student Portfolio Viewing (Level 4 Labs)</div>
-        <div class="box l-col-start-9 l-col-end-13 m-col-start-9 m-col-end-13 col-start-3 col-end-5">7:00 PM - 8:00 PM <br>Food & Drinks/Mingle & Networking (The Chef’s Table)</div>
+        <div class="boxg l-col-start-1 l-col-end-5 m-col-start-1 m-col-end-5 col-star-1 col-end-2">4:30 PM - 6:30 PM <br>Spotlight Presentations (The Good Foundation Inc. Theatre)</div>
+        <div class="boxg l-col-start-5 l-col-end-9 m-col-start-5 m-col-end-9 col-start-2 col-end-3">6:00 PM - 7:00 PM <br>Student Portfolio Viewing (Level 4 Labs)</div>
+        <div class="boxg l-col-start-9 l-col-end-13 m-col-start-9 m-col-end-13 col-start-3 col-end-5">7:00 PM - 8:00 PM <br>Food & Drinks/Mingle & Networking (The Chef’s Table)</div>
         
 
         </div>
 
-        <div class="grid-con">
+        <div class="grid-con boxr">
             <h2 class="menu col-span-full">Find us at:</h2>
             <img class="menu col-span-full" src="images/Rectangle 16.png" alt="map of downtown fanshawe campus">
 
@@ -130,96 +134,96 @@
         <div class="grid-con">  
             <h1 class="space headings col-span-full">IDP3 STUDENT PORTFOLIOS</h1>
            
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Rodriguez Ramos Diego.ca</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Cooper Kayla.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Lozon Ramona.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Chen Qingdong.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Rodriguez Ramos Diego.ca</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Cooper Kayla.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Lozon Ramona.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Chen Qingdong.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Khan Taylor.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Pelacek-Boutilier Cassidy.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Bilyea Isaac.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Carriere Ezra.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Khan Taylor.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Pelacek-Boutilier Cassidy.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Bilyea Isaac.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Carriere Ezra.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Salwan Shauraya.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Reji Vazhavilayil Rebin.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Saddul Divij.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Park Kyuri.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Salwan Shauraya.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Reji Vazhavilayil Rebin.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Saddul Divij.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Park Kyuri.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Meijer Nikolai.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Hanbury Xaviere.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Buck Amari.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Sivaskaran Thaseekaran.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Meijer Nikolai.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Hanbury Xaviere.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Buck Amari.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Sivaskaran Thaseekaran.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Parmar Meet Amrutbhai.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Reyes Justin Rian.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Yantizhanov Alisher.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Thakur Parvesh.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Parmar Meet Amrutbhai.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Reyes Justin Rian.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Yantizhanov Alisher.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Thakur Parvesh.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Damen Meghan.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Amjad Omar Abu-Sa’ad Saif.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Zhang Bozhi.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Chu Qiao-Yi.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Damen Meghan.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Amjad Omar Abu-Sa’ad Saif.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Zhang Bozhi.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Chu Qiao-Yi.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Maxwell Sashoye.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Bondarchuk Dina.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Okutepa Wisdom Utenwojo.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Macapagal Bernardo Jr.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Maxwell Sashoye.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Bondarchuk Dina.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Okutepa Wisdom Utenwojo.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Macapagal Bernardo Jr.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Celis Ezekiel John.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Macadams Katrina.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">El Maniary Ali.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Yam Lok Ting Tina.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Celis Ezekiel John.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Macadams Katrina.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">El Maniary Ali.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Yam Lok Ting Tina.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Nguyen Thi Thanh Thuong.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Quelali Evangelista Jenifer.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Nobre Do Nascimento Rodrigo.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Gabbassova Milana.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Nguyen Thi Thanh Thuong.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Quelali Evangelista Jenifer.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Nobre Do Nascimento Rodrigo.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Gabbassova Milana.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Cardenas Ramos Izel Esteban.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Flores Timothy Bryle.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Sit Loi Pan.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Polchai Napas.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Cardenas Ramos Izel Esteban.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Flores Timothy Bryle.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Sit Loi Pan.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Polchai Napas.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Singh Akamjot.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Opadele Emmanuel.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Sojan Shon.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Ishan Mehra.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Singh Akamjot.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Opadele Emmanuel.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Sojan Shon.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Ishan Mehra.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Biju Varghese Shiyon.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Jashan Kumar.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Dhaliwal Meetinder Singh.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Harnoorpreet Kaur.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Biju Varghese Shiyon.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Jashan Kumar.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Dhaliwal Meetinder Singh.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Harnoorpreet Kaur.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Juntarattanakamol Apapat.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Bandarra Sydney.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Ogbeide Osarieme.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Huertas Tanya Mae.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Juntarattanakamol Apapat.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Bandarra Sydney.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Ogbeide Osarieme.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Huertas Tanya Mae.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Cano Menendez Carlos Andres.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Bishokarma Kamana.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Sham King Yin.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Benipal Tapshveer.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Cano Menendez Carlos Andres.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Bishokarma Kamana.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Sham King Yin.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Benipal Tapshveer.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Laput Dixie Marie.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Faizan Khan.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Lie Keith.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Gamborgi Menezes Henrique.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Laput Dixie Marie.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Faizan Khan.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Lie Keith.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Gamborgi Menezes Henrique.ca</a></h3>
 
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Mahaittidon Natchanon.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Chan Wing Lam Stephanie.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Lai Yi Ting.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Gohetia Sheldon.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Mahaittidon Natchanon.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Chan Wing Lam Stephanie.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Lai Yi Ting.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Gohetia Sheldon.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Gregory Joyal.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Sidhu Sukhbhag Singh.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Shah Het.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Patel Lav Pareshkumar.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Gregory Joyal.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Sidhu Sukhbhag Singh.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Shah Het.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Patel Lav Pareshkumar.ca</a></h3>
 
-                <h2 class="box l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2">Dasilva Simon.com</h2>
-                <h2 class="box l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3">Jayasinghe Mudalige Wimarsha Heshan Jayasinghe.ca</h2>
-                <h2 class="box l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4">Ho Gia Khang.com</h2>
-                <h2 class="box l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5">Bendzsel Kristina.ca</h2>
+                <h3 class="pbox l-col-start-2 l-col-end-4 m-col-start-2 m-col-end-4 col-start-1 col-end-2"><a href="index.html" id="go" class="plink">Dasilva Simon.com</a></h3>
+                <h3 class="pbox l-col-start-5 l-col-end-7 m-col-start-5 m-col-end-7 col-start-2 col-end-3"><a href="index.html" id="go" class="plink">Jayasinghe Mudalige Wimarsha Heshan Jayasinghe.ca</a></h3>
+                <h3 class="pbox l-col-start-8 l-col-end-10 m-col-start-8 m-col-end-10 col-start-3 col-end-4"><a href="index.html" id="go" class="plink">Ho Gia Khang.com</a></h3>
+                <h3 class="pbox l-col-start-11 l-col-end-13 m-col-start-11 m-col-end-13 col-start-4 col-end-5"><a href="index.html" id="go" class="plink">Bendzsel Kristina.ca</a></h3>
 
         </div>
 
@@ -227,18 +231,19 @@
         <div class="grid-con">
             <h1 class="space col-span-full">Client Project Level 4</h1>
             <h1 class="space col-span-full">Project Title:</h1>
-            <h1 class="col-span-full">Brothers in Arms Memorial</h1>
+            <h2 class="col-span-full">Brothers in Arms Memorial</h2>
 
-            <div class="grid-con">   
-                <img class="l-col-start-6 l-col-end-13 m-col-start-6 m-col-end-13 col-span-full" src="images/Ellipse 4.png" alt="srishti logo">
+           
+            <img class="l-col-start-10 l-col-end-13 m-col-start-9 m-col-end-13 col-span-full" src="images/Ellipse 4.png" alt="srishti logo">
                 
-            </div>
+           
 
             <h1 class="space col-span-full">Client:</h1>
             <h1 class="col-span-full">Srishti Foundation</h1>
         
             <h1 class="space col-span-full">Background:</h1>
-            <img class="center col-span-full" src="images/Rectangle 96.png" alt="image of ww1 indian soldiers on horses">
+            <img class="l-col-start-1 l-col-end-6 m-col-start-1 m-col-end-6 col-span-full" src="images/Rectangle 96.png" alt="image of ww1 indian soldiers on horses">
+            <img class="l-col-start-6 l-col-end-13 m-col-start-6 m-col-end-13 col-span-full" src="images/large_000000.png" alt="image of ww1 indian soldiers at arms">
 
             <h3 class="space col-span-full">During World War I, over a million Indian soldiers served in various theaters of the war, including Europe, Africa, and the Middle East, as part of the British Indian Army. Indian and Canadian soldiers often fought side by side in key battles on the Western Front, such as Ypres, Neuve Chapelle, the Somme, and Vimy Ridge.</h3>
             <h3 class="menu col-span-full">If Indian troops in the Lahore Division hadn’t arrived in October and November of 1914 in the Flanders area of Belgium, the Germans would have taken the ports and the Canadian Expeditionary Force would not have landed on the European mainland. John McCrae’s poem In Flanders Field would not have been written. The Flanders’ territory was basically held by the British and Indians in the first battle of Ypres. Six months later, Canadians landed and then fought jointly with Indian soldiers in the second battle of Ypres.</h3>
@@ -271,9 +276,9 @@
 
         </div>
 
-        <footer>
+        <footer class="boxr">
             <div class="grid-con">
-                <img class="space l-col-start-1 l-col-end-3 m-col-start-1 m-col-end-3 col-start-1 col-end-2" src="images/logo_fanshawe.png" height="75" width="80" alt="fanshawe logo">
+                <img class="space l-col-start-1 l-col-end-3 m-col-start-1 m-col-end-3 col-start-1 col-end-2" src="images/fanshawe-logo.png" alt="fanshawe logo">
                 <img class="space l-col-start-10 l-col-end-11 m-col-start-10 m-col-end-11 col-start-2 col-end-3" src="images/Icon feather-instagram.png" alt="instagram logo">
                 <img class="space l-col-start-11 l-col-end-12 m-col-start-11 m-col-end-12 col-start-3 col-end-4" src="images/Icon awesome-facebook-square.png" alt="facebook logo">
                 <img class="space l-col-start-12 l-col-end-13 m-col-start-12 m-col-end-13 col-start-4 col-end-5" src="images/Icon awesome-twitter-square.png" alt="twitter logo">
