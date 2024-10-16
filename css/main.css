@@ -6,6 +6,10 @@ body {
     
 }
 
+.bigtext {
+  font-size: 45px;
+}
+
 p, h1, h2, h3, h4, h5 {
  color: black;
  font-family: Poppins;
@@ -13,6 +17,10 @@ p, h1, h2, h3, h4, h5 {
 }
 .red {
   color: red;
+}
+
+.white {
+  color: white;
 }
 .menu {
     margin-top: 15px;
@@ -41,7 +49,7 @@ p, h1, h2, h3, h4, h5 {
 
 .banner3 {
     position: absolute;
-    margin-top: 240px;
+    margin-top: 350px;
     margin-left: 300px;
 }
 
